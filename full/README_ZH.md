@@ -1,7 +1,7 @@
-# VideoEditSample
+# 华为视频剪辑服务示例代码
 [![License](https://img.shields.io/badge/Docs-hmsguides-brightgreen)](https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/ml-introduction-4)
 
-中文 | [English]
+中文 | [English](README.md)
 
 ## 目录
 
@@ -24,10 +24,12 @@
 
 ## 工程目录结构
 
+```
 |-- com.huawei.videoeditorkit.videoeditdemo
 	|-- Activity
 		|-- MainActivity // Video Editor UI SDK 入口
 		|-- SettingActivity  // Demo基本信息
+```
 
 ## 运行步骤
  - 将本代码库克隆到本地。

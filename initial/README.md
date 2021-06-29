@@ -1,13 +1,12 @@
 # Video Editor Sample
 [![License](https://img.shields.io/badge/Docs-hmsguides-brightgreen)](https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/ml-introduction-4)
 
-中文 | [English]
+English | [中文](README_ZH.md)
 
 ## Table of Contents
 
-- [Introduction](#Introduction)
-
-* [Project directory structure](#Project directory structure)
+* [Introduction](#introduction)
+* [Project directory structure](#project-directory-structure)
 * [Running Procedure](#running-procedure)
 * [Supported environment](#supported-environment)
 * [License](#license)
@@ -26,10 +25,14 @@ Huawei Video Editor Kit (Video Editor Kit) provides full video editing functions
 
 ## Project directory structure
 
+```
 |-- com.huawei.videoeditorkit.videoeditdemo
 	|-- Activity
 		|-- MainActivity // Video Editor UI SDK entry
 		|-- SettingActivity // Basic Demo information
+```
+
+
 
 ## Running Procedure
 - Clone the code base to the local host.
