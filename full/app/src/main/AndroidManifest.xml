@@ -3,19 +3,19 @@
     package="com.huawei.videoeditorkit.codelab">
 
     <!--TODO step 1 ：Add related required permissions -->
-    <!--震动权限-->
+    <!--Vibrate -->
     <uses-permission android:name="android.permission.VIBRATE" />
-    <!--麦克风权限-->
+    <!-- Microphone -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <!--写存储权限-->
+    <!-- Write into storage -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <!--读存储权限-->
+    <!-- Read from storage -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <!--访问网络权限-->
+    <!-- Connect to Internet -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <!--侦听网络状态权限-->
+    <!-- Listen for the network status -->
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    <!--查看网络状态权限-->
+    <!-- Obtain the network status -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
