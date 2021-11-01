@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.huawei.hms.videoeditorkit.sdkdemo">
+
+    <!-- Allow Program Recording Audio Recording Required -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- Allows programs to write to external storage, material storage, and recording files -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--  Using the Network Permission Material Download Feature -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.huawei.hms.videoeditor.codelab.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.huawei.hms.videoeditor.codelab.ui.mediapick.activity.MediaPickActivity"
+            android:configChanges="uiMode"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huawei.hms.videoeditor.codelab.ui.mediapick.activity.PicturePickActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huawei.hms.videoeditor.codelab.ui.mediaeditor.VideoClipsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|uiMode|screenLayout|smallestScreenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity
+            android:name="com.huawei.hms.videoeditor.codelab.ui.mediaexport.VideoExportActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+</manifest>
